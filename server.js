@@ -1,5 +1,6 @@
 var http = require("http");
 var url = require("url");
+require("./index.js");
 
 function start(route, handle) {
   function onRequest(request, response) {
